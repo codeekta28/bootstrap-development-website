@@ -1,0 +1,54 @@
+/* .container {
+    width: 1200px;
+} */
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.secondary-heading-color {
+    color: var(--success-color);
+}
+.primary-heading-color{
+    color: var(--primary-heading-color);
+}
+
+.btn-color {
+    color: white;
+}
+
+.btn-width {
+    padding: 0.5em 2em;
+}
+
+.btn-color {
+    background-color: var(--btn-color);
+}
+
+.hover:hover {
+    color: #a01a58;
+    cursor: pointer;
+    border-color: #b7094c;
+    box-shadow: 0 0.5em 0.5em -0.4em #0091ad;
+    transform: translateY(-0.2em);
+}
+
+.letter-spacing-2 {
+    letter-spacing: 2px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* card */
+.pricingCard{
+    padding: 5rem;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+}
